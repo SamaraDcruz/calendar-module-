@@ -1,0 +1,6 @@
+import calendar
+
+# Print all month names
+for month in calendar.month_name:
+    if month:   # The first element is an empty string, so skip it
+        print(month)
